@@ -1,5 +1,7 @@
 <h1 align="center">Visualize</h1>
 
+> Status: Em desenvolvimento...
+
 ## Tecnologias
 Este projeto utiliza as seguintes tecnologias:
 
