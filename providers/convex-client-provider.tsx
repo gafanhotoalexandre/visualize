@@ -22,7 +22,11 @@ export default function ConvexClientProvider({
   return (
     <ClerkProvider localization={ptBR}>
       <ConvexProviderWithClerk useAuth={useAuth} client={convex}>
-        <Authenticated>{children}</Authenticated>
+        {children}
+        {/*
+          * apenas renderiza o conteúdo se o usuário estiver autenticado.... que ideia de merda
+          <Authenticated>{children}</Authenticated>
+        */}
         <AuthLoading>
           <Loading />
         </AuthLoading>
