@@ -9,7 +9,7 @@ export function Navbar() {
         {/* TODO: Busca */}
         Busca
       </div>
-      <UserButton />
+      <UserButton afterSignOutUrl="/sign-in" />
     </div>
   )
 }
