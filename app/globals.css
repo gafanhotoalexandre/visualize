@@ -81,3 +81,9 @@ body,
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .reset-dialog {
+    @apply p-0 bg-transparent border-none shadow-none !important
+  }
+}

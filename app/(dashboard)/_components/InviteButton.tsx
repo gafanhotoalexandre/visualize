@@ -14,7 +14,7 @@ export function InviteButton() {
         </Button>
       </DialogTrigger>
 
-      <DialogContent className="p-0 bg-transparent border-none shadow-none max-w-[880px]">
+      <DialogContent className="reset-dialog max-w-[880px]">
         <OrganizationProfile />
       </DialogContent>
     </Dialog>

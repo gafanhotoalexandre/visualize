@@ -24,7 +24,7 @@ export function NewButton() {
         </div>
       </DialogTrigger>
 
-      <DialogContent className="p-0 bg-transparent border-none max-w-[480px] shadow-none">
+      <DialogContent className="reset-dialog max-w-[480px] shadow-none">
         <CreateOrganization />
       </DialogContent>
     </Dialog>
